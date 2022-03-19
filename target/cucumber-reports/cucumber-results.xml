@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="2.491369">
+<testcase classname="Find a stop and access modes" name="Get Stop" time="2.491369">
+<system-out><![CDATA[Given John is looking for a stop............................................passed
+When tester hits API and John searches for "Wynyard Station"................passed
+Then Success status code is coming..........................................passed
+And a stop named "Wynyard Station, Sydney" is found.........................passed
+And the stop provides more than one mode of transport.......................passed
+]]></system-out>
+</testcase>
+</testsuite>

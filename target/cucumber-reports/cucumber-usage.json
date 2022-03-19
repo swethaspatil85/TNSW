@@ -1,0 +1,92 @@
+[
+  {
+    "source": "John is looking for a stop",
+    "steps": [
+      {
+        "name": "John is looking for a stop",
+        "aggregatedDurations": {
+          "median": 0.649562,
+          "average": 0.649562000
+        },
+        "durations": [
+          {
+            "duration": 0.649562,
+            "location": "file:features/stops.feature:3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "tester hits API and John searches for {string}",
+    "steps": [
+      {
+        "name": "tester hits API and John searches for \"Wynyard Station\"",
+        "aggregatedDurations": {
+          "median": 1.828279299,
+          "average": 1.828279299
+        },
+        "durations": [
+          {
+            "duration": 1.828279299,
+            "location": "file:features/stops.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Success status code is coming",
+    "steps": [
+      {
+        "name": "Success status code is coming",
+        "aggregatedDurations": {
+          "median": 0.0026139,
+          "average": 0.002613900
+        },
+        "durations": [
+          {
+            "duration": 0.0026139,
+            "location": "file:features/stops.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "a stop named {string} is found",
+    "steps": [
+      {
+        "name": "a stop named \"Wynyard Station, Sydney\" is found",
+        "aggregatedDurations": {
+          "median": 0.0063594,
+          "average": 0.006359400
+        },
+        "durations": [
+          {
+            "duration": 0.0063594,
+            "location": "file:features/stops.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "the stop provides more than one mode of transport",
+    "steps": [
+      {
+        "name": "the stop provides more than one mode of transport",
+        "aggregatedDurations": {
+          "median": 0.002570301,
+          "average": 0.002570301
+        },
+        "durations": [
+          {
+            "duration": 0.002570301,
+            "location": "file:features/stops.feature:7"
+          }
+        ]
+      }
+    ]
+  }
+]

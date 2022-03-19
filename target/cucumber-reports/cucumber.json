@@ -1,0 +1,96 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-03-18T12:33:55.800Z",
+        "line": 11,
+        "name": "Get Stop",
+        "description": "",
+        "id": "find-a-stop-and-access-modes;get-stop;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 649562000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "John is looking for a stop",
+            "match": {
+              "location": "GetStop.john_is_looking_for_a_stop()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1828279299,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "tester hits API and John searches for \"Wynyard Station\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Wynyard Station\"",
+                  "offset": 38
+                }
+              ],
+              "location": "GetStop.tester_hits_api_and_john_searches_for(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2613900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Success status code is coming",
+            "match": {
+              "location": "GetStop.success_status_code_is_coming()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6359400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "a stop named \"Wynyard Station, Sydney\" is found",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Wynyard Station, Sydney\"",
+                  "offset": 13
+                }
+              ],
+              "location": "GetStop.a_stop_named_is_found(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2570301,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the stop provides more than one mode of transport",
+            "match": {
+              "location": "GetStop.the_stop_provides_more_than_one_mode_of_transport()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Find a stop and access modes",
+    "description": "",
+    "id": "find-a-stop-and-access-modes",
+    "keyword": "Feature",
+    "uri": "file:features/stops.feature",
+    "tags": []
+  }
+]

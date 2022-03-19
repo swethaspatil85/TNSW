@@ -1,0 +1,17 @@
+Feature: Find a stop and access modes
+
+  Scenario Outline: Get Stop [90m# features/stops.feature:2[0m
+    [36mGiven John is looking for a stop[0m
+    [36mWhen tester hits API and John searches for <stop1>[0m
+    [36mThen Success status code is coming[0m
+    [36mAnd a stop named <stopName> is found[0m
+    [36mAnd the stop provides more than one mode of transport[0m
+
+    Examples: 
+
+  Scenario Outline: Get Stop                                     [90m# features/stops.feature:11[0m
+    [32mGiven [0m[32mJohn is looking for a stop[0m                             [90m# GetStop.john_is_looking_for_a_stop()[0m
+    [32mWhen [0m[32mtester hits API and John searches for [0m[32m[1m"Wynyard Station"[0m [90m# GetStop.tester_hits_api_and_john_searches_for(String)[0m
+    [32mThen [0m[32mSuccess status code is coming[0m                           [90m# GetStop.success_status_code_is_coming()[0m
+    [32mAnd [0m[32ma stop named [0m[32m[1m"Wynyard Station, Sydney"[0m[32m is found[0m          [90m# GetStop.a_stop_named_is_found(String)[0m
+    [32mAnd [0m[32mthe stop provides more than one mode of transport[0m        [90m# GetStop.the_stop_provides_more_than_one_mode_of_transport()[0m

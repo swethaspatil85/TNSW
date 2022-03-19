@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3274" started-at="2022-03-18T23:33:55 AEDT" finished-at="2022-03-18T23:33:58 AEDT">
+    <groups>
+      <group name="Cucumber">
+        <method signature="StopRunner.scenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.StopRunner@6e6c3152]" name="scenario" class="Runner.StopRunner"/>
+      </group> <!-- Cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="3274" started-at="2022-03-18T23:33:55 AEDT" finished-at="2022-03-18T23:33:58 AEDT">
+      <class name="Runner.StopRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Runner.StopRunner@6e6c3152]" name="setUpClass" is-config="true" duration-ms="203" started-at="2022-03-18T23:33:55 AEDT" finished-at="2022-03-18T23:33:55 AEDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="scenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.StopRunner@6e6c3152]" name="scenario" duration-ms="2711" started-at="2022-03-18T23:33:55 AEDT" description="Runs Cucumber Feature" data-provider="scenarios" finished-at="2022-03-18T23:33:58 AEDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Get Stop"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Find a stop and access modes"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Runner.StopRunner@6e6c3152]" name="tearDownClass" is-config="true" duration-ms="219" started-at="2022-03-18T23:33:58 AEDT" finished-at="2022-03-18T23:33:58 AEDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.StopRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
